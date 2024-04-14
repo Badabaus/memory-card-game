@@ -1,0 +1,36 @@
+.TopBar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(49, 49, 49);
+}
+
+.score {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-reset {
+  display: flex;
+  width: 100px;
+  height: 100%;
+}
+
+.btn-reset > button {
+  width: 60px;
+  height: 30px;
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-reset > button:hover {
+  background-color: rgb(182, 0, 0);
+}
