@@ -8,6 +8,7 @@ main {
   position: relative;
   grid-template-columns: repeat(4, 1fr);
   width: fit-content;
+  margin-top: 15px;
 }
 
 .gameover {
